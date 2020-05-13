@@ -1,0 +1,22 @@
+{
+    "name": "mikha/mt4-grpc-php-client-test",
+    "description": "test",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/mikha-dev/mt4-grpc-php-client.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Mikhail at dev4traders",
+            "email": "mikha.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "grpc/grpc": "^1.27",
+        "google/protobuf": "^3.11",
+        "mikha-dev/mt4-grpc-php-client": "dev-master"
+    }
+}
